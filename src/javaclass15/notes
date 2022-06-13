@@ -1,0 +1,11 @@
+
+
+Rules to create and use methods:
+
+void add(int x,int y){
+System.out.println(x+y);
+}
+
+void=> void is a return type and it is a must if you want to return an integer write int for String
+we write and  String if we dont want to return anything wee write void
+when we write a void we can't assing a method call to a variaable
