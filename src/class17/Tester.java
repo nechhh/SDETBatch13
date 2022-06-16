@@ -1,5 +1,6 @@
 package class17;
 
+
 import class16.Dog;
 
 public class Tester {
