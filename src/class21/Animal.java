@@ -1,3 +1,5 @@
+package class21;
+
 import Class20.Task1;
 
 public class Animal {
@@ -13,12 +15,20 @@ public class Animal {
         this.age = age;
     }
     void  printInfo(){
-        System.out.println("Name"+name+"color"+color+"breed"+breed+"age"+age);
+        System.out.println("Name; "+name+" color; "+color+" breed; "+breed+" age; "+age);
     }
 }
 class Dog extends Animal {
 
     public Dog(String name, String color, String breed, int age) {
+        super(name, color, breed, age);
+    }
+
+
+    }
+class Cat extends Animal {
+
+    public Cat(String name, String color, String breed, int age) {
         super(name, color, breed, age);
     }
 }

@@ -11,3 +11,18 @@ Rules:
      1)we can only access the immediate parent class constructor or field or method
      with the help of super keyword .
      2) we can only use super() inside a constructor.
+     3) if we have a user created constructor in the parent class we must have a matching constructor
+     4) if we have multiple constructor inside the parent as soon as one is matched we are good to go
+     5)super() should be the first line inside a constructor.
+     ======================================================================================
+what is Method OverLoading:
+     When same name method exist in a class but with different number of parameters or different
+     type of parameters or different sequence of parameters it is called methodOverloading.
+why we should use methodOverloading:
+     1)Makes you code more readable.
+     2)Makes the life of the end users easy they don't have to memorize many method names.
+How we can use methodOverloading.
+     we can have same name methods but we have to follow the below rules.
+     1) by passing different number of parameters
+     2) we can change the datatype of parameters
+     3) we can also overload a method by changing the sequence of parameters.
