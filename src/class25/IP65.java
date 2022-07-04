@@ -1,0 +1,35 @@
+package class25;
+public  interface IP65 {
+    ///private String make="LG"; interface can only have public fields
+    ///protected String make="LG"; interface can only have public fields
+
+    // public static final String make="LG";
+    // no need to write public static final why because all the fields by default are public static final
+    // String make="Samsung";
+    void wash();
+    String make="Samsung";
+
+}
+interface FiveG{
+    void speed();
+}
+interface FastChargeAble{
+    void charging();
+}
+class S21Ultra implements IP65,FastChargeAble,FiveG{
+
+    @Override
+    public void wash() {
+        System.out.println("You can wash me easily ezi pizi no issue");
+    }
+
+    @Override
+    public void charging() {
+        System.out.println("i support Fast charging now because i have implemented this requirement as well ");
+    }
+
+    @Override
+    public void speed() {
+        System.out.println("you can dawnload things super fast because now i also support 5G");
+    }
+}
