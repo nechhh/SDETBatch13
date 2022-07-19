@@ -12,15 +12,42 @@ Rules:
    1)All the fields inside an interface are public static and final.
    2)No instance fields means no constructor is required.
    3)No instance  methods in an interface and all the methods by default are abstract.
-   4) Whe we implements the methods from the interface we use implements keyword.
+   4) When we implements the methods from the interface we use implements keyword.
    5) Multiple inheritance is supported by interface in java.
    6) an interface can extend another interface.
    7) variables in interfaces can't be private,protected,default.
    ======================================================================
 
 What is Encapsulation in java:
-    Encapsulaton is 4th pillar of OOPS.It is a mechanism that provides us security. if we use encapsulation we can have more security.
+    Encapsulation is 4th pillar of OOPS.It is a mechanism that provides us security. if we use encapsulation we can have more security.
 How we should use Encapsulation:
       1) make your variables as private.
       2)Create setter and getter methods to read and write these fields.
       ====================================================================================
+
+Basic unit to store data is a variable
+      Its easy to access the value by variable name we don't need to concern about indexes
+      problems with variables:
+      1)They can only store one value at a time.
+      2) first we have to store more than one value using variables we have to declare
+  Upside of Arrays:
+      1)Arrays are fastest data structure when it comes to process the data.
+      2)Arrays copy 4 times less memory than an arraylist.
+
+Arrays:
+      Arrays can hold multiple values in a single variable we then use indexes to access those values.
+
+  problems with Arrays:
+      1)They are faced in size means once have created an array we can't modify its size.
+      2)No built-in methods in arrays like add remove findIndex etc.
+
+
+ArrayList:
+      add()--- we use it to add the element to an arraylist
+      remove()---
+
+
+
+
+
+

@@ -4,8 +4,8 @@ public class IntelliJFeatures {
 
     public static void main(String[] args) {
 
-        int number=10;
-
+        int number=20;
+        // you can click  the yellow light then say relpalce if with switch
         if (number == 10) {
             System.out.println("Number is 10");
         } else if (number == 20) {

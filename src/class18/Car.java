@@ -6,10 +6,9 @@ public class Car {
     private String model;
     private String color;
 
-    public Car(){
+public Car(){
 
-    }
-
+}
     public Car(String carMake, String carModel, String carColor) {
         make = carMake;
         model = carModel;

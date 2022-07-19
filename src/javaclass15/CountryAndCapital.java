@@ -1,6 +1,6 @@
 package javaclass15;
 
-public class Task4 {
+public class CountryAndCapital {
 
     void sayHello(String country){
         String hello;
@@ -32,8 +32,8 @@ public class Task4 {
 
     public static void main(String[] args) {
 
-        Task4 task4 =new Task4();
-        task4.sayHello("France");
+        CountryAndCapital countryAndCapital =new CountryAndCapital();
+        countryAndCapital.sayHello("France");
 
     }
 }

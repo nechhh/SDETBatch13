@@ -23,7 +23,7 @@ System.out.println("like to sleep 8 hours a day ");
 class Child extends Parent{
 
 void eat(){
-System.out.println("I like to eat beef");
+System.out.println("I like to eat chicken");
  }
 }
 Rules:

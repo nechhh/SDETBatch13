@@ -1,5 +1,7 @@
 package class16;
 
+import java.util.Scanner;
+
 public class ChangesTheInstanceValues {
     String str="instance";
     void changeInstanceValue(){
@@ -16,6 +18,8 @@ public class ChangesTheInstanceValues {
         id.printIstanceValue(); // method once simple prints the value of str which is still instance
         id.changeInstanceValue(); //this method changes the instance variable value which will be not captain marvel
         id.printIstanceValue();// method once simple prints the value of str which is now instance captain marvel
+
+
     }
 }
 
